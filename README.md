@@ -4,13 +4,13 @@ This repository contains implementations of first-degree and quadratic equation 
 Here's a markdown workflow for using sbt (Scala Build Tool) to create, compile, and run a Scala project:
 
 
-# sbt Workflow for Scala Projects
+## sbt Workflow for Scala Projects
 
-## 1. Install sbt
+### 1. Install sbt
 
 Make sure you have sbt installed. You can install it by following the instructions on the [sbt official website](https://www.scala-sbt.org/download.html).
 
-## 2. Create a New sbt Project
+### 2. Create a New sbt Project
 
 1. **Create Project Directory**:
    ```bash
@@ -28,7 +28,7 @@ Make sure you have sbt installed. You can install it by following the instructio
    scalaVersion := "3.5.0"  // Set the desired Scala version
    ```
 
-## 3. Create Source Directory Structure
+### 3. Create Source Directory Structure
 
 1. **Create Directories**:
    ```bash
@@ -53,28 +53,28 @@ Make sure you have sbt installed. You can install it by following the instructio
    }
    ```
 
-## 4. Open sbt Shell
+### 4. Open sbt Shell
 
 In your project root directory, run:
 ```bash
 sbt
 ```
 
-## 5. Compile the Project
+### 5. Compile the Project
 
 Once in the sbt shell, compile your project by running:
 ```bash
 > compile
 ```
 
-## 6. Run the Project
+### 6. Run the Project
 
 To run your application, use:
 ```bash
 > run
 ```
 
-## 7. Additional sbt Commands
+### 7. Additional sbt Commands
 
 - **Clean the Project**: Remove generated files.
   ```bash
@@ -91,7 +91,7 @@ To run your application, use:
   > exit
   ```
 
-## 8. Updating Scala Version
+### 8. Updating Scala Version
 
 To change the Scala version:
 
@@ -108,7 +108,7 @@ To change the Scala version:
    > run
    ```
 
-## Conclusion
+### Conclusion
 
 This workflow provides a structured approach to developing Scala projects using sbt, from project setup to compilation and execution.
 ```
