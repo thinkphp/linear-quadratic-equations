@@ -3,7 +3,7 @@ This repository contains implementations of first-degree and quadratic equation 
 
 Here's a markdown workflow for using sbt (Scala Build Tool) to create, compile, and run a Scala project:
 
-```markdown
+
 # sbt Workflow for Scala Projects
 
 ## 1. Install sbt
