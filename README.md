@@ -111,7 +111,6 @@ To change the Scala version:
 ### Conclusion
 
 This workflow provides a structured approach to developing Scala projects using sbt, from project setup to compilation and execution.
-```
 
 This markdown document provides a step-by-step guide to using sbt for your Scala projects, including creating a project, compiling, running, and managing dependencies. You can modify the content to suit your needs!
 
